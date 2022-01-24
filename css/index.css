@@ -54,11 +54,6 @@ body{
 
  /* 3dmodel logo */
 
- .login-logo{
-     height: 20%;
-     background-color: red;
- }
-
  label,input{
     display:flex;
     flex-direction:column;

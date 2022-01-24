@@ -1,0 +1,8 @@
+
+
+/* This styles the 3D object inserted in the aside container */
+#THREEDLO model-viewer {
+ margin-left: 1% !important;
+    border: none;
+    margin: 0 auto;
+}
