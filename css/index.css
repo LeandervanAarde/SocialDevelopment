@@ -83,3 +83,30 @@ body{
       margin-top: 5%;
   }
 
+  #sign-up{
+      cursor: pointer;
+      transition: 300ms linear ease-in;
+    
+  }
+
+  #sign-up:hover{
+    transform: scale(1.2);
+    color: #4CA1D9;
+    
+}
+
+.login-btn{
+    width: 20%;
+    height: auto;
+    padding: 1%;
+    margin-left: 40%;
+    margin-top: 5%;
+    background-color: #4CA1D9;
+   border-radius: 8px;
+   transition: 300ms ease-in-out;
+}
+
+.login-btn:hover{
+ transform: scale(1.2);
+
+}
