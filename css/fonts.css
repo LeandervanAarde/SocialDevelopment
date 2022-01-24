@@ -10,3 +10,8 @@
 .login-font-2{
     margin-top: 1%;
 }
+
+label{
+    color: white;
+    font-weight: bold;
+}
