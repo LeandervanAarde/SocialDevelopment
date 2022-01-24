@@ -52,12 +52,16 @@ body{
 
  }
 
+ .login-logo{
+     width: 100% !important;
+ }
+
  /* 3dmodel logo */
 
  label,input{
     display:flex;
     flex-direction:column;
-    margin-left: 10% !important;
+    margin-left: 17% !important;
     
   }
 
@@ -71,6 +75,11 @@ body{
     border-bottom: white solid 2px;
     color: white;
     outline: none;
+    
 
+  }
+
+  label{
+      margin-top: 5%;
   }
 
