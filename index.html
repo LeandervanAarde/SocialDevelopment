@@ -36,7 +36,7 @@
     <div class="container-fluid">
         <div class="row login-row">
             <div class="col-8 offset-2 preloader-container"> </div>
-            <div class="col-4 offset-4 login-container d-none">
+            <div class=" col-md-8 offset-md-2 col-lg-4 offset-lg-4 login-container">
                 <!-- Logo for the login container -->
     
                 
@@ -44,7 +44,7 @@
                     <model-viewer src="assets/Logo.gltf" alt="Logo Model" rotation-per-second="30deg" interaction-prompt="assets/Room.gltf" auto-rotate camera-controls ar ios-src="assets/Logo.gltf"></model-viewer>
                 </div>
     
-                <h2 class="login-font">LogIn</h2>
+                <h2 class="login-font">Log in</h2>
               
     
                 <form action="" method="post">
@@ -71,7 +71,7 @@
                  <model-viewer src="assets/Logo.gltf" alt="Logo Model" rotation-per-second="30deg" interaction-prompt="assets/Room.gltf" auto-rotate camera-controls ar ios-src="assets/Logo.gltf"></model-viewer>
              </div>
                 
-                    <h2 class="reg-font">Sign-up</h2>
+                    <h2 class="reg-font mt-4">Sign-up</h2>
         
     
                         <label for="name" class="name register-label"> Name and surname</label>
@@ -81,16 +81,19 @@
                         <input type="text" class="register name mt-3">
     
                         <label for="Email2" class="name register-label"> Email</label>
-                        <input type="emai" class="register name mt-3"> 
+                        <input type="email" class="register name mt-3"> 
 
-                        <label for="Email2" class="name register-label"> Email</label>
-                        <input type="emai" class="register name mt-3"> 
+                        <label for="pass2" class="name register-label"> Password</label>
+                        <input type="password" class="register name mt-3"> 
 
-                        <label for="Email2" class="name register-label"> Email</label>
-                        <input type="emai" class="register name mt-3"> 
+                        <label for="passconfirm" class="name register-label"> Email</label>
+                        <input type="password" class="register name mt-3"> 
                         
-
-                          <!-- <div class="login-btn"><h4 class="login-btn-text">Login</h4></div> -->
+                        <div class="reg-btn"><h4 class="login-btn-text">Sign up</h4></div>
+    
+    
+                        <p class="login-font-2">OR</p>
+                        <p class="login-font-2" id="login-btn-2"><b>Log in</b></p>
 
             </div>   <!--reg container ends here-->
 

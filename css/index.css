@@ -38,6 +38,7 @@ body{
  /* Login container */
 
  .login-container, .reg-container{
+     height: 80vh;
     padding: 2%;
     background-color: #ffffff10;
     backdrop-filter: blur(12px);
@@ -48,9 +49,20 @@ body{
     box-shadow: 7px 3px 37px -8px rgba(107,26,204,0.46);
 -webkit-box-shadow: 7px 3px 37px -8px rgba(107,26,204,0.46);
 -moz-box-shadow: 7px 3px 37px -8px rgba(107,26,204,0.46);
-/* display: none; */
+overflow-y: scroll;
+display: none;
 
  }
+
+ .reg-container{
+    box-shadow: -7px 7px 18px -1px rgba(0,0,0,0.60);
+    -webkit-box-shadow: -7px 7px 18px -1px rgba(0,0,0,0.60);
+    -moz-box-shadow: -7px 7px 18px -1px rgba(0,0,0,0.60);
+ }
+
+.reg-container{
+    display: none;
+}
 
  .login-logo{
      width: 100% !important;
@@ -83,19 +95,19 @@ body{
       margin-top: 5%;
   }
 
-  #sign-up{
+  #sign-up, #login-btn-2:hover{
       cursor: pointer;
       transition: 300ms linear ease-in;
     
   }
 
-  #sign-up:hover{
+  #sign-up:hover, #login-btn-2:hover{
     transform: scale(1.2);
     color: #4CA1D9;
     
 }
 
-.login-btn{
+.login-btn, .reg-btn{
     width: 20%;
     height: auto;
     padding: 1%;
@@ -106,7 +118,7 @@ body{
    transition: 300ms ease-in-out;
 }
 
-.login-btn:hover{
+.login-btn:hover, .reg-btn:hover{
  transform: scale(1.2);
 
 }
