@@ -32,45 +32,75 @@
 
 </head>
 <body>
-<div class="container-fluid">
 
-    <div class="row content">
-        <div class="col-8 offset-2 preloader-container"> </div>
-        <div class="col-4 offset-4 login-container">
-            <!-- Logo for the login container -->
+    <div class="container-fluid">
+        <div class="row login-row">
+            <div class="col-8 offset-2 preloader-container"> </div>
+            <div class="col-4 offset-4 login-container d-none">
+                <!-- Logo for the login container -->
+    
+                
+                <div id="THREEDLO" class="login-logo">
+                    <model-viewer src="assets/Logo.gltf" alt="Logo Model" rotation-per-second="30deg" interaction-prompt="assets/Room.gltf" auto-rotate camera-controls ar ios-src="assets/Logo.gltf"></model-viewer>
+                </div>
+    
+                <h2 class="login-font">LogIn</h2>
+              
+    
+                <form action="" method="post">
+    
+                    <label for="Unmae"> E-mail</label>
+                    <input type="email">
+    
+                    <label  for="password"> Password</label>
+                    <input type="password">
+                </form>
+    
+                <div class="login-btn"><h4 class="login-btn-text">Login</h4></div>
+    
+    
+                  <p class="login-font-2">OR</p>
+                  <p class="login-font-2" id="sign-up"><b>Sign up</b></p>
+    
+            </div> <!--Logincontainer-->
+        </div> <!--row for login ends here-->
 
-            <!-- Add the logo here P.S> Jy is mooi <3 :) -->
-            <div id="THREEDLO" class="login-logo">
-                <model-viewer src="assets/Logo.gltf" alt="Logo Model" rotation-per-second="30deg" interaction-prompt="assets/Room.gltf" auto-rotate camera-controls ar ios-src="assets/Logo.gltf"></model-viewer>
-            </div>
+        <div class="row register-row">
+            <div class="col-6 offset-3 reg-container mt-5 "> 
+                 <div id="THREEDLO" class="login-logo">
+                 <model-viewer src="assets/Logo.gltf" alt="Logo Model" rotation-per-second="30deg" interaction-prompt="assets/Room.gltf" auto-rotate camera-controls ar ios-src="assets/Logo.gltf"></model-viewer>
+             </div>
+                
+                    <h2 class="reg-font">Sign-up</h2>
+        
+    
+                        <label for="name" class="name register-label"> Name and surname</label>
+                        <input type="text" class="register name mt-3">
+    
+                        <label for="Uname" class="name register-label"> Username</label>
+                        <input type="text" class="register name mt-3">
+    
+                        <label for="Email2" class="name register-label"> Email</label>
+                        <input type="emai" class="register name mt-3"> 
 
-            <h2 class="login-font">LogIn</h2>
-          
+                        <label for="Email2" class="name register-label"> Email</label>
+                        <input type="emai" class="register name mt-3"> 
 
-            <form action="" method="post">
+                        <label for="Email2" class="name register-label"> Email</label>
+                        <input type="emai" class="register name mt-3"> 
+                        
 
-                <label for="Unmae"> E-mail</label>
-                <input type="email">
+                          <!-- <div class="login-btn"><h4 class="login-btn-text">Login</h4></div> -->
 
-                <label  for="password"> Password</label>
-                <input type="password">
-            </form>
+            </div>   <!--reg container ends here-->
 
-            <div class="login-btn"><h4 class="login-btn-text">Login</h4></div>
-
-
-              <p class="login-font-2">OR</p>
-              <p class="login-font-2" id="sign-up"><b>Sign up</b></p>
-
-        </div>
-    </div> <!--row ends here-->
-
-</div> <!--Container fluid ends here-->
+        </div> <!--register row ends here-->
 
 
-    <!-- Script sources -->
+    </div> <!--container fluid ends here-->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <!-- Font awesome -->
 

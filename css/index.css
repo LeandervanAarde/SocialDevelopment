@@ -37,8 +37,8 @@ body{
 /* Login section */
  /* Login container */
 
- .login-container{
-    height: 80vh;
+ .login-container, .reg-container{
+    padding: 2%;
     background-color: #ffffff10;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);

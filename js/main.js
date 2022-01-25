@@ -6,7 +6,12 @@ $(function(){
         $('.preloader-container').delay(650).fadeOut(3000);
         // $('.login-container').fadeIn(4000)
     }, 7000);
+    // Sign up form function 
 
+    $('#sign-up').on('click', () =>{
+        console.log("sign up form clicked")
+
+    });
   
 
 });
